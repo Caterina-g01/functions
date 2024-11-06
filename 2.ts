@@ -1,8 +1,5 @@
-function reverseString (str: string) {
-    return str
-        .split('')
-        .reverse()
-        .join('');
+function reverseString(str: string): string {
+  return str.split("").reverse().join("");
 }
 
-console.log(reverseString('hello'));
+console.log(reverseString("hello"));
